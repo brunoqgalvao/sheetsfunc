@@ -2,5 +2,15 @@
   "dependencies": {
     "@types/node": "^20.2.4",
     "googleapis": "^118.0.0"
-  }
+  },
+  "name": "sheetsfunc",
+  "description": "## Overview",
+  "version": "1.0.0",
+  "main": "sheetsFunc.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "node example.js"
+  },
+  "author": "",
+  "license": "ISC"
 }
