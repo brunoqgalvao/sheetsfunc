@@ -46,6 +46,11 @@ async function main() {
 main();
 ```
 
+Replace 'YOUR_SPREADSHEET_ID' with the ID of your Google Sheets spreadsheet, 'Sheet1!A1', 'Sheet1!A2', 'Sheet1!B1:B2', and 'Sheet2!B3' with the cell ranges you want to write to and read from, and '/path/to/your/service-account-json-file.json' with the path to your Google Service Account JSON file. The inputDict should be a dictionary mapping input names to 2D arrays representing the data you want to write to Google Sheets.
+
+Conclusion
+This module provides an easy way to leverage the power of Google Sheets in your Node.js applications. However, it's essential to consider the risks and scalability issues when deciding whether it's the right solution for your use case.
+
 
 ## Creating a Google Service Account
 

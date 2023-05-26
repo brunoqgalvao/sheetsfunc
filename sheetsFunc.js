@@ -55,5 +55,3 @@ const SheetsFunc = {
 module.exports = SheetsFunc;
 
   
-  module.exports = SheetsFunc;
-  

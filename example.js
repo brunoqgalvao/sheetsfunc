@@ -9,7 +9,7 @@ async function main() {
     const myFunction = await SheetsFunc.createSheetsFunction(sheetsUrl, authFile, inputs, outputs);
 
 
-    const outputDict = await myFunction({"numero_1":[[1]], "numero_2":[['3']]});
+    const outputDict = await myFunction({"numero_2":[[1]], "numero_1":[['3']]});
     console.log(outputDict);
 
   }
