@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@types/node": "^20.2.4",
+    "googleapis": "^118.0.0"
+  }
+}
